@@ -1,0 +1,29 @@
+.card {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: white;
+    padding: 5px;
+}
+
+.card img{
+    border-radius: 3px;
+}
+.card .card-body{
+    padding: 10px 0px 0px 0px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.main{
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    flex-direction: column;
+}

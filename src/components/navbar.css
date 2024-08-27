@@ -1,0 +1,93 @@
+.bg-image {
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/29/04/21/spaceship-8726719_640.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+.bg-image nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+}
+
+nav .mid ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav .mid ul li {
+    list-style: none;
+}
+
+.bg-image .head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-image .status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.bg-image .status button {
+    margin-top: 20px;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+}
+
+.new,.clear{
+    background-color: rgb(29, 84, 180);
+}
+.progres{
+    background-color: rgb(251, 188, 63);
+}
+.completed{
+    background-color: green;
+}
+
+.sign-out{
+    background-color: rgb(29, 84, 180);
+    color: white;
+    border: none;
+    padding: 10px 20px ;
+    border-radius: 50px;
+}
+
+@media screen and (max-width:768px){
+    .bg-image .status button,.sign-out {
+        font-size: 16px;
+        padding: 8px 30px;
+    }
+}
+@media screen and (max-width:576px){
+    .bg-image .status button,.sign-out {
+        font-size: 13px;
+        padding: 5px 18px;
+    }
+    .bg-image .mid ul{
+        display: none;
+    }
+}
+@media screen and (max-width:480px){
+    .bg-image .status{
+        gap: 15px;
+    }
+    .bg-image .status button,.sign-out {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .bg-image .mid ul{
+        display: none;
+    }
+}
